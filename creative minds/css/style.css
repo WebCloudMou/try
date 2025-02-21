@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0;}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Clarendon%20BT%20Bold.ttf)}
+  
+  @font-face {
+  font-family: myFirstFont1;
+  src: url(../fonts/ARLRDBD.TTF)}
+
+.bg-img{ background:url(../images/bg-img.png); background-repeat:no-repeat;
+  background-position:top center; 
+  background-size:100% }
+  
+/*-------------------------------------------------top-------------------------------- */ 
+.heading{ color:#dcc017; font-family: myFirstFont1; font-size:32px; text-align:center}
+
+
+.menu{ font-size:20px; font-family: myFirstFont}
+
+.searchbutton{ float:right; }
+.top{ height:125px;
+ background:#588a3d;
+  margin-top:13px}
+  
+
+.gallary{ margin-top:24px}
+/*.shopbutton{ font-family: myFirstFont; color:#000000}*/
+
+/*--------------------------------------our products-----------------------------------------------------------*/
+
+.producttext{ color:#90b126; font-size:40px; margin-top:25px; margin-bottom:55px; text-align:center; font-family: myFirstFont}
+
+.box{ height:425px; border:7px solid #588a3d; border-radius:10px 10px 10px 10px; background:#FFFFFF; margin-top:75px; transition:1s}
+.box:hover{ transform:scale(1.3); z-index:2; box-shadow:2px 2px 2px #000}
+.text{ text-align:center; margin-top:15px; font-size:35px; font-family: myFirstFont}
+.pricebox{ height:67px; background:#90b126; border-radius:30px 30px 30px 30px; margin-left:50px; text-align:center; font-size:50px; color:#f8ce07; font-family: myFirstFont; margin-top:30px;transition:1s}
+.pricebox li{ list-style:none}
+.pricebox li a{ color:#ffd300}
+.pricebox:hover{transform:scale(1.3); z-index:2; box-shadow:2px 2px 2px #000}
+/*.box1{ height:425px; border:7px solid #588a3d; border-radius:10px 10px 10px 10px; background: #FFFFFF; margin-left:63px}
+.text1{ text-align:center; margin-top:15px; font-size:40px; font-family: myFirstFont}
+.img1{}
+
+
+
+.box2{ float:right; height:425px; border:7px solid #588a3d; border-radius:10px 10px 10px 10px; background:#FFFFFF;margin-right:63px}
+
+.img2{ margin-left:53px}
+.pricebox2{ height:67px; background:#90b126; border-radius:30px 30px 30px 30px ; margin-left:50px; text-align:center; font-size:50px; color:#f8ce07; font-family: myFirstFont}
+
+
+
+.text3{ text-align:center;margin-top:15px; font-size:40px; font-family: myFirstFont}
+.img3{ margin-left:30px; margin-top:8px}
+.pricebox3{ height:67px; background:#90b126; border-radius:30px 30px 30px 30px; margin-top:25px; text-align:center; font-size:50px; color:#f8ce07; font-family: myFirstFont}
+
+
+/*.box4{ float:right; border:7px solid #588a3d; height:425px; border-radius:10px 10px 10px 10px; background:#FFFFFF; margin-top:75px; margin-right:63px}*/
+/*.text4{ text-align:center; margin-top:15px; font-size:40px; font-family: myFirstFont}
+.img4{ margin-left:85px; margin-top:10px}
+.pricebox4{ height:67px; background:#90b126; border-radius:30px 30px 30px 30px; margin-top:25px;text-align:center; font-size:50px; color:#f8ce07; font-family: myFirstFont}*/
+
+.button1{height: 60px; animation: pulse 3s infinite; margin-top:58px; border-radius:20px 20px 20px 20px;  font-size:40px; text-align:center; color:#FFFFFF; font-family: myFirstFont}
+@keyframes pulse {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #f8ce07;
+  }
+}
+.button1 li{ list-style:none}
+.button1 li a{ color:#FFFFFF}
+
+/*---------------------------------top selling-------------------------------*/
+
+.green-strip{  background:#90b126; margin-top:76px; height:auto}
+.green-strip img{ z-index:999;}
+.green-strip .box{ }
+
+.circle1{ height:287px; background:#c0d384;  border-radius:50%; margin:75px auto; cursor:pointer}
+
+.circle1:hover{  background:#fff;  border-radius:50%; height:287px; }
+
+.bottomimg{ margin-left:27px}
+.bottomtext{ font-size:30px; text-align:center; color:#FFFFFF; font-family: myFirstFont}
+
+
+/*.circle2{ height:287px; background:#c0d384;  border-radius:50%; margin-left:91px; margin-top:75px}
+.circle2:hover{  background:#fff;  border-radius:50%; height:287px; } 
+.bottomimg2{}
+.bottomtext2{font-size:25px; text-align:center; margin-top:41px; color:#FFFFFF; font-family: myFirstFont}
+
+
+.circle3{ height:287px; background:#c0d384;  border-radius:50%; margin-left:71px; margin-top:75px}
+.circle3:hover{  background:#fff;  border-radius:50%; height:287px} 
+.bottomimg3{ margin-left:20px}
+.bottomtext3{ font-size:25px; text-align:center; margin-top:41px; color:#FFFFFF; font-family: myFirstFont}*/
+
+
+
+
+.button2{height: 60px; animation: pulse 3s infinite; font-size:40px; border-radius:20px 20px 20px 20px; text-align:center; color:#FFFFFF; font-family: myFirstFont; margin-top:150px}
+@keyframes pulse {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #f8ce07;
+  }
+}
+.button2 li{ list-style:none}
+.button2 li a{ color:#FFFFFF}
+
+
+.topsellingtext{ color:#90b126; font-size:40px; margin-top:154px; text-align:center; font-family: myFirstFont}
+/*--------------------------------------aboutus----------------------------------------------------*/
+
+.aboutus{ margin-top:30px; color:#000000; line-height:2.3}
+.aboutus p{ padding-top:20px; text-size-adjust: auto}
+.background{ background:#FFFFFF;background-color:rgba(255,255,255,0.6); border-radius:5%}
+
+.aboutus-heading{ height:114px; background-color:#588a3d; margin: 0 auto; border-radius:40px 40px 40px 40px;  font-size:50px; text-align:center; color:#FFFFFF; line-height:2; font-family: myFirstFont;
+animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;}
+   
+ @keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: #588a3d;
+    
+  }
+  50% {
+    background-color: #588a3d;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: #588a3d;
+  }
+}
+
+.floaiage{background:url(../images/plant.png); background-size:contain; background-repeat:no-repeat; background-position:left top; margin-top:138px}
+
+/*-------------------------------------------------customerreviews-------------------------------*/
+
+.customertext{ text-align:center; color:#90b126; font-size:50px; font-family: myFirstFont; margin-top:60px; line-height:3}
+.bottombox{ height:auto;  border:8px solid #588a3d; margin-top:52px}
+.carousel-caption{ font-family: myFirstFont1;}
+.carousel-caption h2{ line-height:2}
+.carousel-caption .new p{ padding-top:80px}
+
+
+/*-----------------------------------------------------------footer-------------------------------------------*/
+
+.footer{ height:auto; background:#588a3d;  border-radius:70px 70px 0px 0px; margin-top:179px}
+
+.cityname{ margin-top:60px; margin-left:80px; color:#FFFFFF; font-family: myFirstFont1; word-spacing:90px}
+.cityname li{ list-style:none; display:inline}
+.cityname li a{ color:#ffffff; transition:0.3s}
+.cityname li a:hover{ background:rgba(248, 204, 0, 0.5); text-decoration:none}
+
+.greenline{ height:2px; background:#c2ffa1; margin-top:33px; margin-right:51px}
+
+.footertext{ margin-top:35px; text-align:center; color:#FFFFFF; text-decoration:none; font-family: myFirstFont1; line-height:1.5}
+.footertext li{ list-style:none}
+.footertext li a{ color:#ffffff; transition:0.3s}
+.footertext li a:hover{ background:rgba(248, 204, 0, 0.5); text-decoration:none}
+/*------------------------------------------------lastfooter------------------------------------------------------------*/
+
+.lastfooter{ height:auto; background:#203018}
+.lastfootertext{ color:#FFFFFF; text-decoration:underline; font-family:myFirstFont1; margin-left:50px; margin-top:20px}
+.lastfootertext li{ list-style:none}
+.lastfootertext li a{ color:#ffffff; transition:0.3s}
+.lastfootertext li a:hover{ background:rgba(248, 204, 0, 0.5); text-decoration:none}
